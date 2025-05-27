@@ -21966,16 +21966,20 @@ for (; i < all.length; i++) {
   clip-path: polygon(0 0, 50% 100%, 100% 0);
 }
 
-.has-chevron--900::before {
+.has-chevron--primary-900::before {
   background: var(--col-primary-900);
 }
 
-.has-chevron--700::before {
+.has-chevron--primary-700::before {
   background: var(--col-primary-700);
 }
 
 .has-chevron--white::before {
   background: var(--col-white);
+}
+
+.has-chevron--grey-900::before {
+  background: var(--col-grey-900);
 }
 
 .splide .splide__arrows {

@@ -7,22 +7,30 @@
 
 defined( 'ABSPATH' ) || exit;
 
-$style = get_field( 'style' );
-if ( ! $style || 'Light' === $style ) {
-	$style   = 'text-white';
-	$chevron = 'has-chevron--white';
-} else { 
-	$style   = 'text-dark';
-	$chevron = 'has-chevron--primary-900';
+$text_style = get_field( 'style' );
+if ( ! $text_style || 'Light' === $text_style ) {
+	$text_style = 'text-white';
+} else {
+	$text_style = 'text-dark';
 }
 
+$chevron_style = get_field( 'chevron_style' );
+if ( ! $chevron_style || 'None' === $chevron_style ) {
+	$chevron_style = null;
+} elseif ( 'Light' === $chevron_style ) {
+	$chevron_style = 'has-chevron has-chevron--white';
+} elseif ( 'Dark' === $chevron_style ) {
+	$chevron_style = 'has-chevron has-chevron--primary-900';
+} elseif ( 'Mid' === $chevron_style ) {
+	$chevron_style = 'has-chevron has-chevron--grey-900';
+}
 
 ?>
-<section class="cb-cta has-chevron <?= esc_attr( $chevron ); ?>">
+<section class="cb-cta <?= esc_attr( $chevron_style ); ?>">
 	<?= wp_get_attachment_image( get_field( 'background_image' ), 'full', false, array( 'class' => 'cb-cta__bg' ) ); ?>
 	<div class="container my-auto">
 		<div class="row">
-			<div class="col-12 col-md-8 <?= esc_attr( $style ); ?>">
+			<div class="col-12 col-md-8 <?= esc_attr( $text_style ); ?>">
 				<h2 class="cb-cta__title"><?= esc_html( get_field( 'title' ) ); ?></h2>
 				<p class="cb-cta__content"><?= esc_html( get_field( 'content' ) ); ?></p>
 			</div>

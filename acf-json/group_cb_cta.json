@@ -107,7 +107,7 @@
         },
         {
             "key": "field_6835b36b088ac",
-            "label": "Style",
+            "label": "Text Style",
             "name": "style",
             "aria-label": "",
             "type": "radio",
@@ -115,7 +115,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "25",
                 "class": "",
                 "id": ""
             },
@@ -129,6 +129,34 @@
             "other_choice": 0,
             "allow_in_bindings": 0,
             "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6835c89cdc935",
+            "label": "Chevron Style",
+            "name": "chevron_style",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "None": "None",
+                "White": "White",
+                "Mid": "Mid",
+                "Dark": "Dark"
+            },
+            "default_value": "None",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "allow_in_bindings": 0,
+            "layout": "vertical",
             "save_other_choice": 0
         }
     ],
@@ -150,5 +178,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1748349850
+    "modified": 1748355535
 }

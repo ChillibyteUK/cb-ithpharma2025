@@ -140,12 +140,12 @@ for (; i < all.length; i++) {
     }
 }
 
-.has-chevron--900 {
+.has-chevron--primary-900 {
     &::before {
         background: var(--col-primary-900);
     }
 }
-.has-chevron--700 {
+.has-chevron--primary-700 {
     &::before {
         background: var(--col-primary-700);
     }
@@ -153,6 +153,11 @@ for (; i < all.length; i++) {
 .has-chevron--white {
     &::before {
         background: var(--col-white);
+    }
+}
+.has-chevron--grey-900 {
+    &::before {
+        background: var(--col-grey-900);
     }
 }
 

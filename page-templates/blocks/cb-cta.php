@@ -39,7 +39,7 @@ if ( ! $chevron_style || 'None' === $chevron_style ) {
 				$cta = get_field( 'cta_link' );
 				?>
 				<a href="<?= esc_url( $cta['url'] ); ?>" class="button button--primary" target="<?= esc_attr( $cta['target'] ); ?>">
-					<?= esc_html( $cta['title'] ); ?>
+					<i class="icon icon--arrow-down"></i> <?= esc_html( $cta['title'] ); ?>
 				</a>
 			</div>
 		</div>

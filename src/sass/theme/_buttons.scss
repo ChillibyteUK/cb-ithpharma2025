@@ -1,4 +1,5 @@
 .button {
+    display: inline-block;
     padding: 0.5rem 1.5rem;
     border-radius: 0rem;
     border: none;
@@ -15,9 +16,10 @@
 
     &:hover {
         background-color: var(--col-accent-400);
-        color: var(--col-dark);
+        color: #222222;
+        fill: currentColor
+        
     }
-
     &:active {
         background-color: var(--col-accent-400);
     }

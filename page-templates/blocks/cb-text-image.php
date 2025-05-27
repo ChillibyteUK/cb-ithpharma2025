@@ -78,7 +78,7 @@ if ( $anchor ) {
 					$cta = get_field( 'cta' );
 					?>
 				<div class="mt-4">
-					<a href="<?= esc_url( $cta['url'] ); ?>" class="button button--primary"><?= esc_html( $cta['title'] ); ?></a>
+					<a href="<?= esc_url( $cta['url'] ); ?>" class="button button--primary"><i class="icon icon--more"></i> <?= esc_html( $cta['title'] ); ?></a>
 				</div>
 					<?php
 				}

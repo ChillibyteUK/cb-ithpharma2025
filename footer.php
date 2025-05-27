@@ -45,7 +45,7 @@ defined( 'ABSPATH' ) || exit;
 				<?= do_shortcode( '[contact_email]' ); ?>
             </div>
             <div class="col-sm-2 text-end">
-                <a href="/contact-us/" class="button button--primary">Contact Us</a>
+                <a href="/contact-us/" class="button button--primary"><i class="icon icon--arrow-down"></i> Contact Us</a>
             </div>
         </div>
 

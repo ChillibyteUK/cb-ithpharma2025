@@ -27,7 +27,7 @@ $product_3_link = get_field( 'product_3_link' );
 						</p>
 						<div class="cb-product-cards__link">
 							<a href="<?= esc_url( $product_1_link['url'] ); ?>" class="button button--outline" target="<?= esc_attr( $product_1_link['target'] ); ?>">
-								<?= esc_html( $product_1_link['title'] ); ?>
+								<i class="icon icon--more"></i> <?= esc_html( $product_1_link['title'] ); ?>
 							</a>
 						</div>
 					</div>
@@ -45,7 +45,7 @@ $product_3_link = get_field( 'product_3_link' );
 						</p>
 						<div class="cb-product-cards__link">
 							<a href="<?= esc_url( $product_2_link['url'] ); ?>" class="button button--outline" target="<?= esc_attr( $product_2_link['target'] ); ?>">
-								<?= esc_html( $product_2_link['title'] ); ?>
+								<i class="icon icon--more"></i> <?= esc_html( $product_2_link['title'] ); ?>
 							</a>
 						</div>
 					</div>
@@ -63,7 +63,7 @@ $product_3_link = get_field( 'product_3_link' );
 						</p>
 						<div class="cb-product-cards__link">
 							<a href="<?= esc_url( $product_3_link['url'] ); ?>" class="button button--outline" target="<?= esc_attr( $product_3_link['target'] ); ?>">
-								<?= esc_html( $product_3_link['title'] ); ?>
+								<i class="icon icon--more"></i> <?= esc_html( $product_3_link['title'] ); ?>
 							</a>
 						</div>
 					</div>

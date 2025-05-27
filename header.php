@@ -113,7 +113,7 @@ if ( session_status() === PHP_SESSION_NONE ) {
 		<div class="container d-flex justify-content-between align-items-center py-2">
 			<div class="logo-container"><a href="/" class="logo" aria-label="ITH Pharma Homepage"></a></div>
 			<div class="d-none d-md-block">
-				<a class="button button--primary" href="https://secure.ithpharma.com/ithpmos/auth/LoginPage/" target="_blank" class="icon icon--arrow-down"></i> Place an Order</a>
+				<a class="button button--primary" href="https://secure.ithpharma.com/ithpmos/auth/LoginPage/" target="_blank"><i class="icon icon--arrow-down"></i> Place an Order</a>
 			</div>
 			<div class="button-container d-md-none">
 				<button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse"

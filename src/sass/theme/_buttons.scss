@@ -1,0 +1,35 @@
+.button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0rem;
+    border: none;
+    font-size: var(--fs-250);
+    font-weight: var(--fw-600);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button--primary {
+    background-color: var(--col-accent-400);
+    color: var(--col-white);
+    transition: color var(--transition);
+
+    &:hover {
+        background-color: var(--col-accent-400);
+        color: var(--col-dark);
+    }
+
+    &:active {
+        background-color: var(--col-accent-400);
+    }
+}
+
+.button--outline {
+    background-color: transparent;
+    border: 1px solid var(--col-accent-400);
+    color: var(--col-white);
+    transition: color var(--transition);
+    &:hover {
+        color: var(--col-accent-400)
+    }
+}
+

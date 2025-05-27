@@ -1,0 +1,41 @@
+/* Colour Classes */
+.has-light-background-color,
+.bg--light {
+	background-color: var(--col-light);
+}
+.has-light-color,
+.text-light {
+	color: var(--col-light);
+}
+
+.has-dark-background-color,
+.bg--dark {
+	background-color: var(--col-dark);
+}
+.has-dark-color,
+.text-dark {
+	color: var(--col-dark);
+}
+
+.has-primary-900-background-color,
+.bg--primary-900 {
+	background-color: var(--col-primary-900);
+}
+.has-primary-900-color,
+.text-primary-900 {
+	color: var(--col-primary-900);
+}
+
+.has-primary-700-background-color,
+.bg--primary-700 {
+	background-color: var(--col-primary-700);
+}
+.has-primary-700-color,
+.text-primary-700 {
+	color: var(--col-primary-700);
+}
+
+.has-accent-400-color,
+.text-accent-400 {
+	color: var(--col-accent-400);
+}

@@ -1,0 +1,62 @@
+$col-primary: #27383A;
+$col-dark: #222222;
+$col-darkest: #4a4a4a;
+$col-light: #f2f2f2;
+
+:root {
+    /* === Colours === */
+    --hsl-light: 0 0% 100%; // white
+    --col-light: hsl(var(--hsl-light));
+
+    --hsl-dark: hsl(0, 0%, 13%); // #222222
+    --col-dark: hsl(var(--hsl-dark));
+
+	--col-white: #ffffff;
+	--col-grey-400: #f3f5f7;
+
+    --col-grey-900: #4d5158;
+
+    --hsl-primary-900: 186 20% 19%; // #27383A
+    --col-primary-900: hsl(var(--hsl-primary-900));
+
+    --hsl-primary-700: 171 36% 26%; // #2B5B54;
+    --col-primary-700: hsl(var(--hsl-primary-700));
+
+    --hsl-primary-500: 159 25% 32%; // #3D6557;
+    --col-primary-500: hsl(var(--hsl-primary-500));
+
+    --hsl-primary-300: 141 19% 65%; // #93B69F;
+    --col-primary-300: hsl(var(--hsl-primary-300));
+
+    --hsl-accent-400: 76 54% 46%; // #93B636
+    --col-accent-400: hsl(var(--hsl-accent-400));
+
+
+    /* === Font Sizes === */
+	--fs-900: 4.5rem;       /* 48px - H1 */
+	--fs-800: 2.4rem;     /* 38.4px - H2 */
+	--fs-700: 1.92rem;    /* 30.7px - H3 */
+	--fs-600: 1.54rem;    /* 24.6px - H4 */
+	--fs-500: 1.25rem;    /* 20px - Lead-in */
+	--fs-400: 1rem;       /* 16px - Body */
+	--fs-300: 0.95rem;    /* 15.2px - Quote */
+	--fs-250: 0.875rem;   /* 14px - Nav/Buttons */
+	--fs-200: 0.8125rem;  /* 13px - Small */
+	--fs-100: 0.75rem;    /* 12px - X-small */
+
+    /* === Font Families === */
+    --ff-body: 'Sharp Sans', Tahoma, Geneva, Verdana, sans-serif;
+    --ff-heading: 'Sharp Sans', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* === Font Weights === */
+	--fw-400: 400; /* Regular */
+	--fw-500: 500; /* Medium */
+	--fw-600: 600; /* SemiBold */
+
+    /* === Utilities === */
+    --transition: 250ms ease-out;
+
+    --h-top: 77px;
+    --h-top-desktop: 130px;
+
+}
